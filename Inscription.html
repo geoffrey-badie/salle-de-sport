@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscription</title>
+    <link rel="stylesheet" href="Sport.css">
+</head>
+<body>
+    <header>
+    <div class="logo">
+        <img src="Images/Haltère1.png" alt="Logo" style="width:75px;">
+    </div>
+    <nav>
+        <a href="Accueil.html">Accueil</a>
+        <a href="Galerie.html">Galerie</a>
+        <a href="Inscription.html">Inscription</a>
+        <a href="Planning.html">Planning</a>
+    </nav>
+    </header>
+
+<div class="form-container">
+    <h2>Inscription</h2>
+        <form>
+            <div class="form-group">
+                <label for="nom">Nom:</label>
+                <input type="text" id="nom" name="nom" required>
+            </div>
+            <div class="form-group">
+                <label for="prenom">Prénom:</label>
+                <input type="text" id="prenom" name="prenom" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="telephone">Téléphone:</label>
+                <input type="tel" id="telephone" name="telephone" required>
+            </div>
+            <div class="form-group">
+                <label>Formule d'abonnement:</label>
+        <div class="radio-option">
+            <div class="icons">
+                <img src="Images/Haltère1 bronze.png" alt="basique">
+            </div>
+            <input type="radio" id="formule1" name="formule" value="formule1" checked>
+            <label for="formule1">Formule Basique - 19.99€/mois</label>
+        </div>
+        <div class="radio-option">
+            <div class="icons">
+                <img src="Images/Haltère1 argent.png" alt="standard">
+            </div>
+            <input type="radio" id="formule2" name="formule" value="formule2">
+            <label for="formule2">Formule Standard - 39.99€/mois</label>
+        </div>
+        <div class="radio-option">
+            <div class="icons">
+                <img src="Images/Haltère1 or.png" alt="premium">
+            </div>
+            <input type="radio" id="formule3" name="formule" value="formule3">
+            <label for="formule3">Formule Premium - 59.99€/mois</label>
+                </div>
+            </div>
+            <button type="submit">S'inscrire</button>
+        </form>
+    </div>
+
+    <footer>
+    <div class="social-icons">
+        <a href="https://facebook.com"><img src="Images/Facebook.png" alt="Facebook"></a>
+        <a href="https://instagram.com"><img src="Images/Instagram.png" alt="Instagram"></a>
+        <a href="https://whatsapp.com"><img src="Images/WhatsApp.png" alt="WhatsApp"></a>
+    </div>
+    <p>123 rue Bidon, 01 23 45 67 89</p>
+    </footer>
+</body>
+</html>
